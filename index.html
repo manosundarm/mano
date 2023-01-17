@@ -505,7 +505,7 @@ I am excited to expand my horizons and work with international clients. I am act
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
       
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<!--       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 <script>
 VANTA.GLOBE({
@@ -521,7 +521,30 @@ VANTA.GLOBE({
   size: 1.40,
   backgroundColor: 0x0
 })
-</script>
+</script> -->
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    VANTA.BIRDS({
+      el: "#vantajs",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0x0,
+      color1: 0xff3c,
+      color2: 0xffb3,
+      birdSize: 0.90,
+      wingSpan: 28.00,
+      speedLimit: 4.00,
+      cohesion: 19.00,
+      quantity: 3.00
+    })
+    </script>
 
 </body>
 
